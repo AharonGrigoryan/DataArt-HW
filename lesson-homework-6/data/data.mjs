@@ -101,7 +101,7 @@ const cardData = [
     btn2Text: "Edit",
     time: "9 mins",
   },
-  // ... Repeat this object structure for the other 8 cards
+
 ];
 
 const myExport = {
