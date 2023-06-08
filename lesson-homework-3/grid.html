@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .grid-container {
+      display: grid;
+      gap: 1rem;
+      grid-template-areas:
+        "header header header header"
+        "sidebar content content content "
+        "fotter fotter fotter fotter"
+        "h h s s"
+        "f f c c";
+    }
+    .header {
+      grid-area: header;
+    }
+    .sidebar {
+      grid-area: sidebar;
+    }
+    .fotter {
+      grid-area: fotter;
+    }
+    .content {
+      grid-area: content;
+    }
+    .h {
+      grid-area: h;
+    }
+    .s {
+      grid-area: s;
+    }
+    .c {
+      grid-area: c;
+    }
+    .f {
+      grid-area: f;
+    }
+    .grid {
+      padding: 10px;
+      border: 2px solid #ccc;
+    }
+  </style>
+  <body>
+    <div class="grid-container">
+      <div class="grid header">header</div>
+      <div class="grid sidebar">sidebar</div>
+      <div class="grid content">content</div>
+      <div class="grid fotter">fotter</div>
+      <div class="grid h">h</div>
+      <div class="grid s">s</div>
+      <div class="grid c">c</div>
+      <div class="grid f">f</div>
+    </div>
+  </body>
+  <script></script>
+</html>

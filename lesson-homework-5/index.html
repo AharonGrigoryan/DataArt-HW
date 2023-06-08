@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/script.js" async defer></script>
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h2>Using a for loop and if condition</h2>
+      <pre><code>
+function showEvenNumbers1(arr) {
+  let result = [];
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] % 2 === 0) {
+      result.push(arr[i]);
+    }
+  }
+  return result;
+}
+    </code></pre>
+      <button onclick="randomNumberPrompt()">Your Random Number</button>
+      <button onclick="generateRandomNumber()">Generate Random Number</button>
+    </div>
+
+    <div class="container">
+      <h2>Using the filter() method</h2>
+      <pre><code>
+function showEvenNumbers2(arr) {
+  return arr.filter(function(number) {
+    return number % 2 === 0;
+  });
+}
+    </code></pre>
+    </div>
+
+    <div class="container">
+      <h2>Using a for...of loop</h2>
+      <pre><code>
+function showEvenNumbers3(arr) {
+  let result = [];
+  for (const number of arr) {
+    if (number % 2 === 0) {
+      result.push(number);
+    }
+  }
+}
+  return result;
+    </code></pre>
+    </div>
+
+    <div class="container">
+      <h2>Using a Quick Sort</h2>
+      <pre><code>
+function quickSort(array) {
+  if (array.length <= 1) {
+    return array;
+  }
+  const pivot = array[array.length - 1];
+  const left = [];
+  const right = [];
+
+  for (let i = 0; i < array.length - 1; i++) {
+    if (array[i] < pivot) {
+      left.push(array[i]);
+    } else {
+      right.push(array[i]);
+    }
+  }
+  return [...quickSort(left), 
+  pivot, ...quickSort(right)];
+}
+
+    </code></pre>
+      <button onclick="randomNumberPrompt(true)">Your Random Number</button>
+      <button onclick="generateRandomNumber(true)">
+        Generate Random Number
+      </button>
+    </div>
+
+    <div class="container">
+      <h2>Using the Bubble Sort</h2>
+      <pre><code>
+function bubbleSort(array) {
+  for (let i = 0; i < array.length; i++) {
+    for (let j = 0; j < array.length; j++) {
+      if (array[j + 1] < array[j]) {
+        let temp = array[j]; 
+        array[j] = array[j + 1]; 
+        array[j + 1] = temp; 
+      }
+      count += 1;
+    }
+  }
+  return array;
+}
+    </code></pre>
+    </div>
+
+    <div class="container">
+      <h2>Using a Selection Sort</h2>
+      <pre><code>
+function selectionSort(array) {
+  for (let i = 0; i < array.length; i++) {
+    let indexMin = i;
+    for (let j = i + 1; j < array.length; j++) {
+      if (array[j] < array[indexMin]) {
+        indexMin = j;
+      }
+      count += 1;
+    }
+    let temp = array[i]; 
+    array[i] = array[indexMin];
+    array[indexMin] = temp; 
+  }
+  return array;
+}
+    </code></pre>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Allura&family=Dancing+Script&family=Delicious+Handrawn&family=Inconsolata:wght@600&family=Lexend&family=Noto+Serif&family=Pacifico&family=Plaster&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(237, 214, 240);
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    padding: 30px;
+    display: initial;
+}
+
+span {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.justify-content {
+    display: flex;
+    height: 100px;
+    justify-content: start;
+}
+
+.item,
+button {
+    border: none;
+    background-color: rgb(247, 148, 31);
+    box-shadow: 10px 5px 5px rgb(41, 40, 40);
+    border-radius: 8px;
+    margin-right: 10px;
+    text-align: center;
+    width: 50px;
+}
+
+.item {
+    padding: 10px;
+    min-height: 25%;
+}
+
+.justify-content,
+.buttongroup,
+.align-items,
+.buttongroup-second {
+    background-color: rgb(153, 93, 181);
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: inset 0 0 15px #3c3b3a;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.align-items {
+    align-items: baseline;
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    margin-top: 25px;
+    width: 450px;
+}
+
+.buttongroup-second {
+    height: 30px;
+    width: 450px;
+}
+
+button {
+    cursor: pointer;
+    padding: 5px;
+    width: auto;
+    transition: background-color 1s;
+}
+
+button:hover {
+    box-shadow: none;
+    background-color: rgb(171, 105, 20);
+    color: rgb(237, 214, 240);
+}
+
+button:focus,
+button:active {
+    box-shadow: none;
+    background-color: rgb(92, 73, 48);
+    color: rgb(237, 214, 240);
+}

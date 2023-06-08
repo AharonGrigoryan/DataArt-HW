@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./js/main.js" async defer></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div>
+      <a
+        href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-justify-content"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <h1>justify-content</h1>
+      </a>
+      <div class="justify-content">
+        <div class="item item_1">1</div>
+        <div class="item item_2">2</div>
+        <div class="item item_3">3</div>
+        <div class="item item_4">4</div>
+        <div class="item item_4">5</div>
+      </div>
+      <div class="buttongroup">
+        <button>flex-start</button>
+        <button>flex-end</button>
+        <button>center</button>
+        <button>space-between</button>
+        <button>space-around</button>
+        <button>space-evenly</button>
+      </div>
+      <div>
+        <ul>
+          <li>
+            <span>flex-start</span>(default): items are packed toward the start
+            of the flex-direction.
+          </li>
+          <li>
+            <span>flex-end</span>: items are packed toward the end of the
+            flex-direction.
+          </li>
+          <li>
+            <span>start</span>: items are packed toward the start of the
+            writing-mode direction.
+          </li>
+          <li>
+            <span>end</span>: items are packed toward the end of the
+            writing-mode direction.
+          </li>
+
+          <li>
+            <span>left</span>: items are packed toward the right edge of the
+            container, unless that doesn't make sense with the flex-direction,
+            then it behaves like end.
+          </li>
+          <li><span>center</span>: items are centered along the line.</li>
+          <li>
+            <span>space-between</span>: items are evenly distributed in the
+            line; the first item is on the start line, the last item is on the
+            end line.
+          </li>
+          <li>
+            <span>space-around</span>: items are evenly distributed in the line
+            with equal space around them. Note that visually the spaces aren't
+            equal, since all the items have equal space on both sides. The first
+            item will have one unit of space against the container edge, but two
+            units of space between the next item because that next item has its
+            own spacing that applies.
+          </li>
+          <li>
+            <span>space-evenlys</span>: items are distributed so that the
+            spacing between any two items (and the space to the edges) is equal.
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <a
+        href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-align-items"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <h1>align-items</h1>
+      </a>
+      <div class="align-items">
+        <div class="item item_1">1</div>
+        <div class="item item_2">2</div>
+        <div class="item item_3">3</div>
+        <div class="item item_4">4</div>
+        <div class="item item_4">5</div>
+      </div>
+
+      <div class="buttongroup-second">
+        <button>stretch</button>
+        <button>flex-start</button>
+        <button>flex-end</button>
+        <button>center</button>
+        <button>baseline</button>
+      </div>
+      <div>
+        <ul>
+          <li>
+            <span>stretch</span> (default): stretch to fill the container (still
+            respect min-width/max-width)
+          </li>
+          <li>
+            <span>flex-start</span> / start / self-start: items are placed at
+            the start of the cross axis. The difference between these is subtle,
+            and is about respecting the flex-direction rules or the writing-mode
+            rules.
+          </li>
+          <li>
+            <span>flex-end</span> / end / self-end: items are placed at the end
+            of the cross axis. The difference again is subtle and is about
+            respecting flex-direction rules vs. writing-mode rules.
+          </li>
+          <li><span>center</span>: items are centered in the cross-axis.</li>
+          <li>
+            <span>baseline</span>: items are aligned such that their baselines
+            align.
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

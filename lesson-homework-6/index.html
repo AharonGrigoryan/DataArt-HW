@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.css"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.js"></script>
+    <script defer src="js/main.js"></script>
+  </head>
+  <style>
+    body {
+      background-color: #ffffff;
+      font-family: Helvetica, Arial, sans-serif;
+      text-align: center;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <header
+        class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
+      >
+        <a
+          href="/"
+          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+        >
+          <svg class="bi me-2" width="40" height="32">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+          <span class="fs-4">Simple header</span>
+        </a>
+
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a href="#" class="nav-link active" aria-current="page">Home</a>
+          </li>
+          <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+        </ul>
+      </header>
+    </div>
+
+    <div class="album py-5 bg-body-tertiary">
+      <div class="container">
+        <div
+          id="cardContainer"
+          class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3"
+        ></div>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+      <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Free</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">
+                $0<small class="text-body-secondary fw-light">/mo</small>
+              </h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>10 users included</li>
+                <li>2 GB of storage</li>
+                <li>Email support</li>
+                <li>Help center access</li>
+              </ul>
+              <button
+                type="button"
+                class="w-100 btn btn-lg btn-outline-primary"
+              >
+                Sign up for free
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Pro</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">
+                $15<small class="text-body-secondary fw-light">/mo</small>
+              </h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>20 users included</li>
+                <li>10 GB of storage</li>
+                <li>Priority email support</li>
+                <li>Help center access</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-primary">
+                Get started
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm border-primary">
+            <div class="card-header py-3 text-bg-primary border-primary">
+              <h4 class="my-0 fw-normal">Enterprise</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">
+                $29<small class="text-body-secondary fw-light">/mo</small>
+              </h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>30 users included</li>
+                <li>15 GB of storage</li>
+                <li>Phone and email support</li>
+                <li>Help center access</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-primary">
+                Contact us
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="modalSheet-1"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title 1</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In, culpa
+            nemo voluptatibus hic aspernatur a reiciendis! Necessitatibus,
+            accusantium quasi quod totam iure id natus quas velit ducimus,
+            provident eligendi impedit ipsum. Voluptatum mollitia, nobis
+            assumenda aliquid vel consectetur quis porro, maxime. Voluptas
+            incidunt temporibus rerum magnam, impedit, nesciunt sequi quibusdam
+            eligendi placeat. Amet quod unde quae nisi velit sint dolores
+            assumenda magni, asperiores possimus impedit deleniti omnis
+            accusantium dolorem veritatis, libero fuga voluptates nemo sunt
+            saepe repellat perspiciatis esse ipsum quos id. Animi illo error,
+            corrupti sapiente dignissimos hic repellat reprehenderit, atque
+            ratione aperiam. Tempore ipsa autem culpa laboriosam repudiandae
+            quam reiciendis odio accusamus saepe totam commodi mollitia
+            doloribus deserunt corrupti, animi, perferendis explicabo nulla
+            aliquid ab. Reiciendis praesentium, adipisci! Iure nesciunt deserunt
+            sit? Delectus ipsam exercitationem dolores possimus harum minus
+            pariatur odit, blanditiis aliquam ullam eum, deserunt voluptate
+            voluptatem nemo doloremque quae vitae, autem veniam itaque sequi
+            nostrum ducimus. Inventore animi officia voluptatem accusantium,
+            voluptatum? Quibusdam earum nemo veniam, molestias vero mollitia
+            dolorum recusandae aut debitis at praesentium.
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div id="cardsContainer"></div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="modalSheet-2"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLongTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">
+              Modal title 2
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. In fugit
+            quasi doloribus delectus, fugiat obcaecati vel expedita nemo
+            dignissimos aspernatur, consequuntur tempore voluptatem, quia?
+            Cumque at, maxime quaerat! Quas delectus cum rerum laborum dolorum
+            ipsum. At, fugit deserunt earum consequuntur inventore eum magni
+            eveniet laborum, sint porro, dolorem provident impedit sapiente enim
+            cum tempora in! Suscipit, aliquid ad. Odit neque eum, id architecto
+            facilis temporibus accusantium iure reprehenderit laboriosam qui
+            iste reiciendis distinctio non nesciunt illo recusandae!
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="./js/script.js"></script>
+    <script type="module" src="./js/generateCard.js"></script>
+  </body>
+</html>
