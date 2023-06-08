@@ -1,0 +1,5 @@
+Then, I optimized the HTML code using the map function in JavaScript to dynamically generate the card elements based on data.
+I further improved the code by separating the JavaScript logic into a separate file for better organization.
+I created additional card objects using a loop and the existing card data, ensuring that the headings, subheadings, and content alternate in the new cards.
+Moved main.js script to head.Added "defer" attribute to script tags, With "defer" the script is executed after the HTML parsing is complete, maintaining the order of script execution as specified in the HTML file.
+main.css style added in HTML with <style> tag
