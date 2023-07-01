@@ -67,4 +67,4 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 
 ## Contact
 
-For any inquiries or questions, you can reach out to me via email: your-email@example.com.
+For any inquiries or questions, you can reach out to me via email: grigoryanaharon434@gmail.com
