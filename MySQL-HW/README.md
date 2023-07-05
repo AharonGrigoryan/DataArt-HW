@@ -44,7 +44,3 @@ This is a simple SQL project that demonstrates the usage of different operators 
 - Response: The result is displayed as a JSON array.
 
 ...
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
