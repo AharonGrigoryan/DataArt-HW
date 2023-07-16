@@ -1,0 +1,32 @@
+:root {
+    --dl-color-gray-500: #595959;
+    --dl-color-gray-700: #999999;
+    --dl-color-gray-900: #D9D9D9;
+    --dl-color-yellow-500: #fed035;
+    --dl-color-success-hover-700: #266828;
+    --dl-color-success-500: #32A94C;
+    --dl-color-danger-700: #a82525;
+    --dl-color-danger-500: #d50000;
+    --dl-color-gray-black: #000000;
+    --dl-color-gray-white: #FFFFFF;
+    --dl-size-size-small: 14px;
+    --dl-size-size-medium: 24px;
+    --dl-size-size-large: 32px;
+    --dl-size-size-xlarge: 200px;
+
+    --dl-size-size-xxlarge: 288px;
+    --dl-size-size-xsmall: 8px;
+    --dl-size-size-maxwidth: 1400px;
+    --dl-space-space-unit: 16px;
+    --dl-space-space-halfunit: 10px;
+    --dl-space-space-oneandhalfunits: 20px;
+    --dl-space-space-twounits: 32px;
+    --dl-space-space-threeunits: 48px;
+    --dl-space-space-fourunits: 64px;
+    --dl-space-space-fiveunits: 80px;
+    --dl-space-space-sixunits: 96px;
+    --dl-radius-radius-round: 50%;
+    --dl-radius-radius-radius2: 2px;
+    --dl-radius-radius-radius4: 4px;
+    --dl-radius-radius-radius8: 8px;
+}

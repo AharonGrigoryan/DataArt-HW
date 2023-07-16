@@ -1,0 +1,115 @@
+.home-container-item {
+    align-items: center;
+    align-self: center;
+    cursor: pointer;
+    display: flex;
+    height: 50px;
+    padding: var(--dl-space-space-halfunit);
+    width: 100%;
+}
+
+.home-container4 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: var(--dl-space-space-halfunit);
+}
+
+.home-icon {
+    fill: rgb(149, 207, 243);
+    height: var(--dl-size-size-medium);
+    width: var(--dl-size-size-medium);
+}
+
+.home-image {
+    border-radius: var(--dl-radius-radius-round);
+    height: var(--dl-size-size-small);
+    object-fit: cover;
+    width: var(--dl-size-size-small);
+}
+
+.home-nav {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 auto;
+    position: fixed;
+}
+
+.home-profile {
+    align-items: center;
+    border-bottom-width: 0px;
+    border-color: var(--dl-color-gray-900);
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-width: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-top: var(--dl-space-space-unit);
+    width: 100%;
+}
+
+.home-sidebar {
+    align-items: flex-start;
+    background-color: #000807;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    min-height: 800px;
+    padding: var(--dl-space-space-twounits);
+    width: 200px;
+}
+
+.home-text {
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 600;
+    margin-right: 6px;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+.home-text.active {
+    border-bottom: 2px solid var(--dl-color-danger-500);
+}
+
+.home-text:hover {
+    border-bottom: 2px solid var(--dl-color-danger-500);
+    color: #B3B7EE;
+}
+
+.home-text1:active {
+    border-bottom: 2px solid var(--dl-color-danger-500);
+}
+
+.home-text2:active {
+    border-bottom: 2px solid var(--dl-color-danger-500);
+}
+
+.home-text4 {
+    color: var(--dl-color-gray-500);
+    font-size: 0.75rem;
+}
+
+.home-text:hover {
+    border-bottom: 2px solid var(--dl-color-danger-500);
+    color: #B3B7EE;
+}
+
+@media (max-width: 991px) {
+    .home-image {
+        margin-left: 0px;
+    }
+
+    .home-profile {
+        padding-left: var(--dl-space-space-halfunit);
+        padding-right: var(--dl-space-space-halfunit);
+    }
+}
+
+a {
+    color: beige;
+    text-decoration: none;
+}

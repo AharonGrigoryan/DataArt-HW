@@ -1,0 +1,25 @@
+.header-btn {
+    background-color: var(--dl-color-success-500);
+    border: none;
+    border-radius: var(--dl-radius-radius-radius4);
+    color: var(--dl-color-gray-white);
+    cursor: pointer;
+    font-size: var(--dl-space-space-unit);
+    margin: var(--dl-space-space-halfunit);
+    padding: var(--dl-space-space-halfunit) var(--dl-space-space-oneandhalfunits);
+    transition: background-color 0.2s ease-in-out;
+}
+
+.header-btn:hover {
+    background-color: var(--dl-color-success-hover-700);
+}
+
+.nav {
+    align-items: center;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: var(--dl-size-size-large);
+    padding: var(--dl-space-space-halfunit) var(--dl-space-space-oneandhalfunits);
+    z-index: 1;
+}
